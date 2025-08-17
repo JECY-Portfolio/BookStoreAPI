@@ -3744,12 +3744,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "p9Qm5S5RbIY7OcWVATElEdq89wVXX+iyaP59ZHMwGwZ7ugcFjOKjkJEFsR0DNclv+0nzHK680B9t2ZQt6Fj8wg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3759,12 +3758,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "sha512": "vhImpj0Jey/JaIQuuEUabqz54kyJXFizWv4jrXPBIivWNb4FigVyw0NQo1CPsi0tejBHne4cHxW7eBeRcOMU8A==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -4467,12 +4465,11 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "sha512": "7x90hvMlw9ByriuQR+iX7KYpLGVAOgb0a2bH7OpN5WbkqbgPgb7shRYV8sz6awc9riX93+c9xNikDmRhwzO/UQ==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4850,12 +4847,11 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "sha512": "wmMwzH9jKTz3ZDjKhXnfR2yEwJopV/J3YOUlPWX8rtKd/JuxpBSwhPRcLWFfpWpLldAUqUny9Ynd7rUE+xenHA==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5158,24 +5154,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dlink-User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
       "projectName": "Book-Store-API",
-      "projectPath": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
-      "packagesPath": "C:\\Users\\Dlink-User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Source\\Repos\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Source\\Repos\\BookStoreAPI\\Book-Store-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dlink-User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5201,8 +5196,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5246,7 +5240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

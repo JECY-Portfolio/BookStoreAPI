@@ -29,7 +29,7 @@ public class BooksController : ControllerBase
     public async Task<IActionResult> GetBookById(int id)
     {
         var book = await _booksService.GetBookByIdAsync(id);
-     
+    
         return Ok(book);
     }
 }

@@ -1,5 +1,7 @@
 using Book_Store_API.Data;
+using Book_Store_API.Repository.AuthorsRepo;
 using Book_Store_API.Repository.BooksRepo;
+using Book_Store_API.Repository.CategoriesRepo;
 using Book_Store_API.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,10 +13,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 //Register Repositories
 builder.Services.AddScoped<IBooksRepository, BooksRepository>();
+builder.Services.AddScoped<IAuthorsRepository, AuthorsRepository>();
+//builder.Services.AddScoped<ICategoriesRepository, CategoriesRepository>();
 
 
 //Register Services
 builder.Services.AddScoped<IBooksService, BookService>();
+builder.Services.AddScoped<IAuthorsService, AuthorService>();
 
 
 builder.Services.AddControllers();
