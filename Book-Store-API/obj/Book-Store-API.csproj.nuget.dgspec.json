@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\Book-Store\\Book-Store-API\\Book-Store-API.csproj": {}
+    "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\Book-Store\\Book-Store-API\\Book-Store-API.csproj": {
+    "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Book-Store\\Book-Store-API\\Book-Store-API.csproj",
+        "projectUniqueName": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
         "projectName": "Book-Store-API",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\Book-Store\\Book-Store-API\\Book-Store-API.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\Book-Store\\Book-Store-API\\obj\\",
+        "projectPath": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\Book-Store-API.csproj",
+        "packagesPath": "C:\\Users\\Dlink-User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dlink-User\\Desktop\\TOBA\\P.D Projects\\BookStoreAPI\\Book-Store-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dlink-User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,10 +51,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -88,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,6 @@
 ﻿using Book_Store_API.Entites;
 
-namespace Book_Store_API.Services;
+namespace Book_Store_API.Services.BookService;
 
 public interface IBooksService
 {

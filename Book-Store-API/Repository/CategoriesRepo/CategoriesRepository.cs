@@ -2,6 +2,7 @@
 using Book_Store_API.Entites;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Book_Store_API.Repository.CategoriesRepo;
 
 public class CategoriesRepository : ICategoriesRepository
@@ -24,18 +25,18 @@ public class CategoriesRepository : ICategoriesRepository
     {
         return await _context.Categories
                  .Where(c => c.Id == id)
-                 .ExecuteDeleteAsync() > 0;  
+                 .ExecuteDeleteAsync() > 0;
     }
 
     public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
     {
-       return await _context.Categories.ToListAsync();
+        return await _context.Categories.ToListAsync();
     }
 
     public async Task<Category> GetCategoryByIdAsync(int id)
     {
         return await _context.Categories
-            .FindAsync(id);
+                  .FindAsync(id);
     }
 
     public async Task<Category> UpdateCategoryAsync(Category category)

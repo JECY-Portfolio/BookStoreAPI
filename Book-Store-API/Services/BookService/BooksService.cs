@@ -1,13 +1,13 @@
 ﻿using Book_Store_API.Entites;
 using Book_Store_API.Repository.BooksRepo;
 
-namespace Book_Store_API.Services;
+namespace Book_Store_API.Services.BookService;
 
-public class BookService : IBooksService
+public class BooksService : IBooksService
 {
     private readonly IBooksRepository _booksRepository;
 
-    public BookService(IBooksRepository booksRepository)
+    public BooksService(IBooksRepository booksRepository)
     {
         _booksRepository = booksRepository;
     }
