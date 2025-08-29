@@ -1,4 +1,5 @@
 ﻿using Book_Store_API.Entites;
+using Book_Store_API.Entites.Dtos.Book;
 using Book_Store_API.Repository.BooksRepo;
 
 namespace Book_Store_API.Services.BookService;
@@ -27,14 +28,37 @@ public class BooksService : IBooksService
         return book;
     }
 
-    public async Task AddBookAsync(Book book)
+    public async Task AddBookAsync(CreateBookRequestDto requestDto)
     {
-        await _booksRepository.AddBookAsync(book);
+        //Mapping
+
+        //Manual Mapping
+        var newEntity = new Book
+        {
+            Title = requestDto.Title,
+            Description = requestDto.Description,
+            Price = requestDto.Price,
+            AuthorId = requestDto.AuthorId,
+            CategoryId = requestDto.CategoryId
+        };
+
+        await _booksRepository.AddBookAsync(newEntity);
     }
 
-    public async Task UpdateBookAsync(Book book)
+    public async Task UpdateBookAsync(UpdateBookRequestDto requestDto)
     {
-        await _booksRepository.UpdateBooksAsync(book);
+        //Get the existing book
+        var existingBook = await _booksRepository.GetBookByIdAsync(requestDto.Id);
+        if (existingBook == null)
+            throw new KeyNotFoundException($"Book with ID {requestDto.Id} not found.");
+
+        existingBook.Title = requestDto.Title;
+        existingBook.Description = requestDto.Description;
+        existingBook.Price = requestDto.Price;
+        existingBook.AuthorId = requestDto.AuthorId;
+        existingBook.CategoryId = requestDto.CategoryId;
+
+        await _booksRepository.UpdateBooksAsync(existingBook);
     }
 
     public void DeleteBookAsync(int id)
